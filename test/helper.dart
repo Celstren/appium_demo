@@ -5,7 +5,7 @@ class TestHelper {
 
   static var androidDesiredCapabilitiesApp = {
     'platformName': 'Android',
-    'app': ''c:\Users\LENOVO 01\Documents\flutter project\appium_demo\assets\app-release.zip'',
+    'app': File('assets/app-debug.zip').absolute.path,
     'deviceName': 'Android',
     'automationName': 'UiAutomator2',
     'appPackage': 'com.example.appium_demo',
